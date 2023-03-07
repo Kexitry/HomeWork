@@ -1,0 +1,10 @@
+.text-dz {
+  text-indent: 25px;
+  color: rgb(145, 141, 141);
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 900;
+  letter-spacing: 4px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+}
