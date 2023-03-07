@@ -53,3 +53,9 @@
   .footer__project--link {
     font-size: 40px;
   }
+  #new {
+    background: linear-gradient(to left, #44f413, #1e13ee 100%);
+    background-position: 0 100%;
+    background-size: 100% 2px;
+    background-repeat: repeat-x;
+  }
