@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "Revista Thin";
+  font-weight: 300;
+  font-style: normal;
+  src: local("Revista Thin"),
+    local("Revista-Thin"),
+    url("../fonts/Revista-Thin.woff2") format('woff2');
+  font-display: swap;
+}
+
+.title {
+  font-family: 'Rubik Iso', sans-serif;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+
+.text-1 {
+  font-family: 'Rampart One', cursive;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+
+.text-2 {
+  font-family: 'Revista Thin', sans-serif;
+  font-weight: 300;
+  margin-bottom: 50px;
+}
