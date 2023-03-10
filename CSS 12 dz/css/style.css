@@ -1,0 +1,36 @@
+.container {
+  padding: 100px 100px 50vh;
+  height: 100%;
+}
+
+.one {
+  margin: 30px;
+  height: 400px;
+  width: 400px;
+  border: 5px solid #000;
+  border-radius: 50px;
+  border-color: #000;
+  background-color: #e3463b;
+  transition: border-color 3s 2s;
+}
+
+.one:hover {
+  border-color: #062ffa;
+}
+
+.two {
+  margin: 30px;
+  height: 400px;
+  width: 400px;
+  border: 5px solid #000;
+  border-radius: 50px;
+  border-color: #000;
+  background-color: #e4cc54;
+  transition-property: border-color;
+  transition-duration: 3s;
+  transition-delay: 2s;
+}
+
+.two:hover {
+  border-color: #062ffa;
+}

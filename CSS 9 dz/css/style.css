@@ -1,0 +1,18 @@
+.wrapper {
+  padding: 10px 50px 10px;
+}
+
+.block1 {
+  height: 600px;
+  width: 100%;
+  margin-bottom: 100px;
+  background: url("../images/food.jpg") 50% 50% no-repeat, radial-gradient(rgb(144, 255, 64), rgb(247, 1, 255));
+}
+
+.block2 {
+  height: 600px;
+  width: 100%;
+  background-image: url("../images/food.jpg"), radial-gradient(rgb(240, 255, 24) 50%, rgb(0, 0, 0) 80%);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
