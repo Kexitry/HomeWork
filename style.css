@@ -1,35 +1,85 @@
 * {
-    margin: 0;
-    padding: 0;
-    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-    font-weight: 500;
+  margin: 0;
+  padding: 0;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 700;
+}
+
+.wrapper {
+  background-color: rgb(239, 227, 238);
+  height: 100vh;
+  width: 100%;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.hov:hover {
+  color: rgba(124, 27, 99, 0.705);
+}
+
+/*===================================================================================*/
+
+.header {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.header__title {
+  width: 100%;
+  height: 100%;
+  padding: 30px 0 30px 0;
+  color: rgb(132, 35, 114);
+  text-align: left;
+  font-size: 45px;
+  font-weight: 500;
+  animation: header__title 8s infinite linear,
+  grad-text 1s ease-in-out infinite alternate 1s;
+}
+
+.header__title:after {
+  content: "Нажми на домашку";
+}
+
+@keyframes header__title{
+  0% {
+    transform: translateX(-25%);
   }
-  
-  .wrapper {
-    background-color: rgb(239, 227, 238);
-    height: 100vh;
-    width: 100%;
-    font-family: "Courier New", Courier, monospace;
+  100% {
+    transform: translateX(100%);
   }
-  
-  .hov:hover {
-    color: rgba(124, 27, 99, 0.705);
-  }
-  
-  /*===================================================================================*/
-  
-  .header__title {
-    padding: 30px 0;
+}
+
+@keyframes grad-text {
+  0% {
     color: rgb(132, 35, 114);
-    text-align: center;
-    font-size: 45px;
   }
-  
-  .main__lessons {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  20% {
+    color: #fb0505;
   }
+
+  40% {
+    color: #f79c0a;
+  }
+   
+  60% {
+    color: #f7ec1c;
+  }
+
+  80%{
+    color: #19f800;
+  }
+
+  100%{
+    color: #000;
+  }
+}
+
+.main__lessons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
   
   .main__lessons--link,
   .footer__project--link {
