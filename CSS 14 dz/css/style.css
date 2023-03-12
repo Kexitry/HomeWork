@@ -1,0 +1,28 @@
+.wrapper {
+  margin: 200px;
+  border: solid 20px #7d7d7d;
+  height: 50%;
+  width: 50%;
+}
+
+.flexbox__item-content {
+  height: 100px;
+  width: 100px;
+  background-color: #e85151;
+  border: solid 5px #333;
+  border-radius: 50px;
+}
+
+
+.flexbox {
+  display: flex;
+  border: solid 10px #a98d55;
+  justify-content: space-between;
+  align-items: center;
+  height: 50%;
+}
+
+.flexbox__item {
+  align-self: center;
+  /* justify-content: center; */
+}
